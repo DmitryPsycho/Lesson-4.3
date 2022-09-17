@@ -15,6 +15,7 @@
 		40BFEC0428D2563E001BECF4 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BFEC0328D2563E001BECF4 /* RegisterView.swift */; };
 		40BFEC0628D2571C001BECF4 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BFEC0528D2571C001BECF4 /* UserManager.swift */; };
 		40BFEC0828D25A0F001BECF4 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BFEC0728D25A0F001BECF4 /* StarterView.swift */; };
+		40BFEC0C28D653D6001BECF4 /* LogoutButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40BFEC0B28D653D6001BECF4 /* LogoutButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		40BFEC0328D2563E001BECF4 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
 		40BFEC0528D2571C001BECF4 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
 		40BFEC0728D25A0F001BECF4 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		40BFEC0B28D653D6001BECF4 /* LogoutButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				40BFEBF328D2462E001BECF4 /* Lesson_4_3App.swift */,
 				40BFEBF528D2462E001BECF4 /* ContentView.swift */,
+				40BFEC0B28D653D6001BECF4 /* LogoutButtonView.swift */,
 				40BFEC0328D2563E001BECF4 /* RegisterView.swift */,
 				40BFEC0728D25A0F001BECF4 /* StarterView.swift */,
 				40BFEC0128D24ED6001BECF4 /* TimeCounter.swift */,
@@ -151,6 +154,7 @@
 			files = (
 				40BFEC0228D24ED6001BECF4 /* TimeCounter.swift in Sources */,
 				40BFEC0428D2563E001BECF4 /* RegisterView.swift in Sources */,
+				40BFEC0C28D653D6001BECF4 /* LogoutButtonView.swift in Sources */,
 				40BFEC0828D25A0F001BECF4 /* StarterView.swift in Sources */,
 				40BFEBF628D2462E001BECF4 /* ContentView.swift in Sources */,
 				40BFEC0628D2571C001BECF4 /* UserManager.swift in Sources */,

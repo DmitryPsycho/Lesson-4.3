@@ -43,10 +43,16 @@ struct UserTextFieldView: View {
     var nameValid = false
     
     var body: some View {
-        TextField("Enter your name", text: $name)
-            .multilineTextAlignment(.center)
-        Text("\(name.count)")
-            .foregroundColor(nameValid ? .green : .red)
+        ZStack {
+            TextField("Enter your name", text: $name)
+                .multilineTextAlignment(.center)
+            HStack {
+                Spacer()
+                Text("\(name.count)")
+                    .foregroundColor(nameValid ? .green : .red)
+                    .padding(30)
+            }
+        }
     }
 }
 
