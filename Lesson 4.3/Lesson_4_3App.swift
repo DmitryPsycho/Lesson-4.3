@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct Lesson_4_3App: App {
+    @StateObject private var userManager = UserManager()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarterView()
+                .environmentObject(userManager)
         }
     }
 }
